@@ -1,0 +1,116 @@
+@mixin verti-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+html{
+    font-size: 10px;
+}
+body{
+    margin: 0;
+    background: white;
+}
+.home{
+    height: 98vh;
+    @include verti-center();
+}
+.gate{
+    width: fit-content;
+    margin: auto;
+}
+// .btnOpen{
+//     font-size: 2rem;
+//     display: block;
+//     margin: auto;
+// }
+
+.dx-multiview-wrapper {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -ms-touch-action: pinch-zoom pan-y;
+    touch-action: pinch-zoom pan-y;
+}
+.dx-multiview-item-container {
+    position: relative;
+    overflow: visible;
+    width: 100%;
+    height: 100%;
+}
+.dx-multiview-item {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.dx-multiview-item.dx-item-selected {
+    position: relative;
+}
+.dx-multiview-item-content {
+    width: 100%;
+    height: 100%;
+}
+.dx-multiview-item-hidden {
+    top: -9999px;
+    visibility: hidden;
+}
+.dx-tabpanel-tabs {
+    width: 100%;
+}
+.dx-tabpanel-tabs .dx-tabs {
+    height: 100%;
+}
+.dx-tabpanel-container {
+    width: 100%;
+    height: 100%;
+}
+.dx-tabpanel > .dx-tabpanel-tabs .dx-tabs {
+    display: block;
+}
+.dx-tabpanel > .dx-tabpanel-tabs .dx-tabs-scrollable {
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 100%;
+}
+.dx-tabpanel > .dx-tabpanel-tabs .dx-tabs-scrollable .dx-tabs-wrapper {
+    display: block;
+}
+
+.dx-tabpanel{
+    background: white;
+    .dx-tabpanel-container{
+        min-height: 100vh;
+    }
+    .dx-tabpanel-tabs{
+        position: fixed;
+        bottom: 0;
+        z-index: 1;
+        .dx-tabs-wrapper{
+            display: flex;
+            .dx-item{
+                width: 20%;
+                text-align: center;
+                font-size: 1.2rem;
+                padding-top: .5rem;
+                padding-bottom: .5rem;
+                border-top: solid .1rem #ccc;
+                border-right: solid .1rem #ccc;
+                &:last-child{
+                    border-right: none;
+                }
+                &.dx-tab-selected{
+                    border-top: .2rem solid #ccc;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+.header{
+    text-align: center;
+    
+    border-bottom: solid .2rem #ccc;
+    font-size: 2rem;
+}
