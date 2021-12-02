@@ -1,37 +1,40 @@
 <template>
     <div>
-        <div class="header">
-            HAY
-        </div>
         <DxTabPanel
             :animation-enabled="animationEnabled"
             :swipe-enabled="swipeEnabled"
-            :items="tabPanelItems"
             v-model="selectedIndex"
         >
-            <DxItem title='counseling'>
+            <DxItem title='심리상담'>
                 <template #default>
-                    1
+                    <router-view name="viewCounseling" />
+                        <!-- <Counseling /> -->
+                    <!-- </router-view> -->
+                    <!-- 심리상담 -->
                 </template>
             </DxItem>
-            <DxItem title='prescription'>
+            <DxItem title='로켓처방'>
                 <template #default>
-                    <p>2This is Info Tab</p>
+                    <router-view name="viewPrescribe" />
+                    <!-- 로켓처방 -->
                 </template>
             </DxItem>
-            <DxItem title='home'>
+            <DxItem title='HAY'>
                 <template #default>
-                    <p>3This is Info Tab</p>
+                    <router-view name="viewHay" />
+                    <!-- HAY -->
                 </template>
             </DxItem>
-            <DxItem title='lounge'>
+            <DxItem title='헤이라운지'>
                 <template #default>
-                    <p>4This is Info Tab</p>
+                    <router-view name="viewLounge" />
+                    <!-- 헤이라운지 -->
                 </template>
             </DxItem>
-            <DxItem title='my'>
+            <DxItem title='MY공간'>
                 <template #default>
-                    <p>5This is Info Tab</p>
+                    <router-view name="viewMy" />
+                    <!-- MY공간 -->
                 </template>
             </DxItem>
         </DxTabPanel>
@@ -40,35 +43,20 @@
 
 <script>
 import DxTabPanel, {DxItem} from 'devextreme-vue/tab-panel';
+// import Counseling from './counseling/counseling.vue';
 
 export default {
     name: 'page',
     components: {
         DxTabPanel,
         DxItem,
+        // Counseling,
     },
     data(){
         return{
             selectedIndex: 1,
             animationEnabled: true,
             swipeEnabled: true,
-            tabPanelItems: [
-                {
-                    title: '심리상담',
-                },
-                {
-                    title: '로켓처방',
-                },
-                {
-                    title: 'HAY',
-                },
-                {
-                    title: '헤이라운지',
-                },
-                {
-                    title: 'MY공간',
-                },
-            ]
         }
     },
 }

@@ -10,14 +10,14 @@ export default {
     name: 'home',
     methods: {
         openFullscreen() {
-            let elem = document.querySelector("#app");
-            if (elem.requestFullscreen) {
-                elem.requestFullscreen();
-            } else if (elem.webkitRequestFullscreen) { /* Safari */
-                elem.webkitRequestFullscreen();
-            } else if (elem.msRequestFullscreen) { /* IE11 */
-                elem.msRequestFullscreen();
-            }
+            // let elem = document.querySelector("#app");
+            // if (elem.requestFullscreen) {
+            //     elem.requestFullscreen();
+            // } else if (elem.webkitRequestFullscreen) { /* Safari */
+            //     elem.webkitRequestFullscreen();
+            // } else if (elem.msRequestFullscreen) { /* IE11 */
+            //     elem.msRequestFullscreen();
+            // }
             this.$router.push('/page');
         },
     }

@@ -103,6 +103,11 @@ body{
                     border-top: .2rem solid #ccc;
                     font-weight: bold;
                 }
+                &:nth-child(1){
+                    &::after{
+                        content: url('~@/assets/img/icon.svg');
+                    }
+                }
             }
         }
     }
