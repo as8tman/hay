@@ -7,7 +7,7 @@ import Prescribe from '@/view/prescribe/prescribe.vue';
 import Hay from '@/view/hay/hay.vue';
 import Lounge from '@/view/lounge/lounge.vue';
 import My from '@/view/my/my.vue';
-// import test from '@/view/counseling/test.vue';
+import Test from '@/view/counseling/test.vue';
 // import ttt from '@/view/counseling/ttt.vue';
 
 Vue.use(VueRouter);
@@ -30,29 +30,55 @@ const routes = [
                 path: 'counseling',
                 components: {
                     viewCounseling: Counseling,
+                    viewPrescribe: Prescribe,
+                    viewHay: Hay,
+                    viewLounge: Lounge,
+                    viewMy: My,
+                }
+            },
+            {
+                path: 'test',
+                components: {
+                    viewCounseling: Test,
                 }
             },
             {
                 path: 'prescribe',
                 components: {
+                    viewCounseling: Counseling,
                     viewPrescribe: Prescribe,
+                    viewHay: Hay,
+                    viewLounge: Lounge,
+                    viewMy: My,
                 }
             },
             {
                 path: 'hay',
                 components: {
+                    viewCounseling: Counseling,
+                    viewPrescribe: Prescribe,
                     viewHay: Hay,
+                    viewLounge: Lounge,
+                    viewMy: My,
                 }
             },
             {
                 path: 'lounge',
                 components: {
+                    viewCounseling: Counseling,
+                    viewPrescribe: Prescribe,
+                    viewHay: Hay,
                     viewLounge: Lounge,
+                    viewMy: My,
                 }
             },
             {
                 path: 'my',
                 components: {
+                    viewCounseling: Counseling,
+                    viewPrescribe: Prescribe,
+                    viewHay: Hay,
+                    viewLounge: Lounge,
                     viewMy: My,
                 }
             },

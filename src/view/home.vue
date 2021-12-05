@@ -1,7 +1,13 @@
 <template>
     <div class="home">
-        <img @click="openFullscreen" src="@/assets/img/temp.png" class="gate" alt="">
-        <!-- <button class="btnOpen" type="button">HAY Start</button> -->
+        <div class="home-wrap">
+            <div class="home-logo">
+                <img @click="openFullscreen" src="@/assets/img/logo.svg" class="gate" alt="hay">
+            </div>
+            <div class="home-ico">
+                <img src="@/assets/img/ico_1.svg" alt="아이콘">
+            </div>
+        </div>
     </div>
 </template>
 
@@ -18,7 +24,7 @@ export default {
             // } else if (elem.msRequestFullscreen) { /* IE11 */
             //     elem.msRequestFullscreen();
             // }
-            this.$router.push('/page');
+            this.$router.push('/page/counseling');
         },
     }
 }
