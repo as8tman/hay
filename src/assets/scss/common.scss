@@ -16,6 +16,7 @@ $txt-red: #F92525;
 $txt-white: #fff;
 $txt-gray: #333;
 $txt-gray2: #999;
+$txt-biolet: #7E63BA;
 
 $border-gray: #DBDBDB;
 
@@ -85,7 +86,7 @@ $header-height: 4.8rem;
     }
     .contents{
         min-height: calc(100vh - #{$header-height});
-        margin-bottom: 6rem;
+        margin-bottom: 7rem;
         .swiper-wrapper{
             min-height: calc(100vh - #{$header-height});
             .swiper-slide{
@@ -103,12 +104,9 @@ $header-height: 4.8rem;
                 opacity: 1;
                 background: transparent;
                 border-radius: 0;
+                padding-top: .5rem;
                 &.swiper-pagination-bullet-active{
-                    background: $bg-biolet;
-                    color: $txt-white;
-                    &::before{
-                        fill: white !important;
-                    }
+                    color: $txt-biolet;
                 }
                 &::before{
                     width: 4rem;
@@ -129,12 +127,26 @@ $header-height: 4.8rem;
                         content: '심리상담';
                     }
                 }
+                &.swiper-pagination-bullet-active{
+                    &:nth-child(1){
+                        &::before{
+                            content: url('~@/assets/img/ico_counseling_on.svg');
+                        }
+                    }
+                }
                 &:nth-child(2){
                     &::before{
                         content: url('~@/assets/img/ico_prescribe.svg');
                     }
                     &::after{
                         content: '로켓처방';
+                    }
+                }
+                &.swiper-pagination-bullet-active{
+                    &:nth-child(2){
+                        &::before{
+                            content: url('~@/assets/img/ico_prescribe_on.svg');
+                        }
                     }
                 }
                 &:nth-child(3){
@@ -145,6 +157,16 @@ $header-height: 4.8rem;
                         content: url('~@/assets/img/logo_txt.svg');
                     }
                 }
+                &.swiper-pagination-bullet-active{
+                    &:nth-child(3){
+                        &::before{
+                            content: url('~@/assets/img/ico_hay_on.svg');
+                        }
+                        &::after{
+                            content: url('~@/assets/img/logo_txt_on.svg');
+                        }
+                    }
+                }
                 &:nth-child(4){
                     &::before{
                         content: url('~@/assets/img/ico_lounge.svg');
@@ -153,12 +175,26 @@ $header-height: 4.8rem;
                         content: '헤이라운지';
                     }
                 }
+                &.swiper-pagination-bullet-active{
+                    &:nth-child(4){
+                        &::before{
+                            content: url('~@/assets/img/ico_lounge_on.svg');
+                        }
+                    }
+                }
                 &:nth-child(5){
                     &::before{
                         content: url('~@/assets/img/ico_my.svg');
                     }
                     &::after{
                         content: 'MY공간';
+                    }
+                }
+                &.swiper-pagination-bullet-active{
+                    &:nth-child(5){
+                        &::before{
+                            content: url('~@/assets/img/ico_my_on.svg');
+                        }
                     }
                 }
             }

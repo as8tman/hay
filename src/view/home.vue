@@ -24,7 +24,7 @@ export default {
             // } else if (elem.msRequestFullscreen) { /* IE11 */
             //     elem.msRequestFullscreen();
             // }
-            this.$router.push('/page/counseling');
+            this.$router.push('/page/hay');
         },
     }
 }
