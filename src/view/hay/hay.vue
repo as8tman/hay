@@ -63,16 +63,16 @@ export default {
             imotiFace: [
                 {url: 'imoti_face_smile.svg', alt: '웃음'}, /* 0 */
                 {url: 'imoti_face_joy.svg', alt: '기쁨'}, /* 1 */
-                {url: 'imoti_face_angry.svg', alt: '화남'}, /* 1 */
-                {url: 'imoti_face_tension.svg', alt: '긴장'}, /* 1 */
-                {url: 'imoti_face_happy.svg', alt: '행복'}, /* 1 */
-                {url: 'imoti_face_depress.svg', alt: '우울'}, /* 1 */
-                {url: 'imoti_face_bore.svg', alt: '지루함'}, /* 1 */
-                {url: 'imoti_face_absurd.svg', alt: '황당'}, /* 1 */
-                {url: 'imoti_face_sad.svg', alt: '슬픔'}, /* 1 */
-                {url: 'imoti_face_anxious.svg', alt: '불안'}, /* 1 */
-                {url: 'imoti_face_tire.svg', alt: '피곤함'}, /* 1 */
-                {url: 'imoti_face_sick.svg', alt: '아픔'}, /* 1 */
+                {url: 'imoti_face_angry.svg', alt: '화남'}, /* 2 */
+                {url: 'imoti_face_tension.svg', alt: '긴장'}, /* 3 */
+                {url: 'imoti_face_happy.svg', alt: '행복'}, /* 4 */
+                {url: 'imoti_face_depress.svg', alt: '우울'}, /* 5 */
+                {url: 'imoti_face_bore.svg', alt: '지루함'}, /* 6 */
+                {url: 'imoti_face_absurd.svg', alt: '황당'}, /* 7 */
+                {url: 'imoti_face_sad.svg', alt: '슬픔'}, /* 8 */
+                {url: 'imoti_face_anxious.svg', alt: '불안'}, /* 9 */
+                {url: 'imoti_face_tire.svg', alt: '피곤함'}, /* 10 */
+                {url: 'imoti_face_sick.svg', alt: '아픔'}, /* 11 */
             ],
             heart: [
                 {url: 'ico_heart.svg', alt: '빈하트'}, /* 0 */
@@ -94,8 +94,5 @@ export default {
             ]
         }
     },
-    // mounted() {
-    //     console.log(this.imotiFace[0].url)
-    // }
 }
 </script>
