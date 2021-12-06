@@ -66,6 +66,7 @@ export default {
             },
             touchReleaseOnEdges: true,
             slidesPerView: 1,
+            autoHeight: true,
         });
         swiper.on('activeIndexChange', () => {
             this.$router.push( this.menu[swiper.activeIndex].url );

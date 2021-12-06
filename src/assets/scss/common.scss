@@ -49,6 +49,7 @@ body{
 ul{
     list-style: none;
     padding-left: 0;
+    margin-bottom: 0;
 }
 
 .home{
@@ -282,6 +283,8 @@ $header-height: 4.8rem;
     &--face{
         vertical-align: middle;
         margin-right: 1.5rem;
+        width: 2.6rem;
+        height: 2.6rem;
     }
     &--digit{
         font-size: 2rem;
@@ -295,5 +298,10 @@ $header-height: 4.8rem;
     &--li{
         border-bottom: solid .1rem $border-gray;
         padding-bottom: 2rem;
+        margin-bottom: 2rem;
+        &:last-child{
+            border-bottom: none;
+            margin-bottom: 0;
+        }
     }
 }

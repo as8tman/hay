@@ -7,8 +7,6 @@ import Prescribe from '@/view/prescribe/prescribe.vue';
 import Hay from '@/view/hay/hay.vue';
 import Lounge from '@/view/lounge/lounge.vue';
 import My from '@/view/my/my.vue';
-import Test from '@/view/counseling/test.vue';
-// import ttt from '@/view/counseling/ttt.vue';
 
 Vue.use(VueRouter);
 const originalPush = VueRouter.prototype.push;
@@ -34,12 +32,6 @@ const routes = [
                     viewHay: Hay,
                     viewLounge: Lounge,
                     viewMy: My,
-                }
-            },
-            {
-                path: 'test',
-                components: {
-                    viewCounseling: Test,
                 }
             },
             {
