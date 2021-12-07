@@ -1,7 +1,7 @@
 <template>
     <div class="page">
         <div class="header">
-            <img src="@/assets/img/logo_simple.svg" alt="hay">
+            <img @click="$router.push('/')" src="@/assets/img/logo_simple.svg" alt="hay">
         </div>
         <div class="swiper contents">
             <div class="swiper-wrapper">
@@ -67,6 +67,7 @@ export default {
             touchReleaseOnEdges: true,
             slidesPerView: 1,
             autoHeight: true,
+            initialSlide: 2,
         });
         swiper.on('activeIndexChange', () => {
             this.$router.push( this.menu[swiper.activeIndex].url );
