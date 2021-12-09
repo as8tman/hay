@@ -8,6 +8,7 @@
 }
 
 $bg-biolet: #7F64BA;
+$bg-biolet-soft: #E9DFFF;
 $bg-gray: #efeff2;
 $bg-red: #F92525;
 $bg-white: #fff;
@@ -257,10 +258,11 @@ $header-height: 4.8rem;
 }
 
 .biolet-box{
-    border-radius: $box-radius-15;
     background: $bg-biolet;
-    text-align: center;
-    padding-top: 4rem;
+    border-radius: $box-radius-15;
+    padding: 1.6rem 2rem;
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 2rem;
     &--msg{
         margin-bottom: 4rem;
@@ -268,12 +270,22 @@ $header-height: 4.8rem;
         color: $txt-white;
     }
     &--img{
+        max-width: 20rem;
         margin: auto auto 4rem;
         display: block;
     }
-    &--btn{
-        margin-bottom: 4rem;
+    &--txt{
+        font-size: 1.4rem;
+        color: $txt-white;
     }
+}
+
+.soft-biolet-box{
+    border-radius: $box-radius-15;
+    background: $bg-biolet-soft;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .white-box{
