@@ -7,6 +7,8 @@ import Counseler from '@/view/counseling/counseler.vue';
 import Prescribe from '@/view/prescribe/prescribe.vue';
 import Hay from '@/view/hay/hay.vue';
 import PostDiary01 from '@/view/hay/PostDiary01.vue';
+import PostDiary02 from '@/view/hay/PostDiary02.vue';
+import PostDiary03 from '@/view/hay/PostDiary03.vue';
 import Lounge from '@/view/lounge/lounge.vue';
 import My from '@/view/my/my.vue';
 
@@ -72,6 +74,26 @@ const routes = [
                     viewCounseling: Counseling,
                     viewPrescribe: Prescribe,
                     viewHay: PostDiary01,
+                    viewLounge: Lounge,
+                    viewMy: My,
+                }
+            },
+            {
+                path: 'postDiary02',
+                components: {
+                    viewCounseling: Counseling,
+                    viewPrescribe: Prescribe,
+                    viewHay: PostDiary02,
+                    viewLounge: Lounge,
+                    viewMy: My,
+                }
+            },
+            {
+                path: 'postDiary03',
+                components: {
+                    viewCounseling: Counseling,
+                    viewPrescribe: Prescribe,
+                    viewHay: PostDiary03,
                     viewLounge: Lounge,
                     viewMy: My,
                 }
