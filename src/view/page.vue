@@ -71,9 +71,10 @@ export default {
             // height: bodyHeight,
             initialSlide: 2,
         });
-        swiper.on('activeIndexChange', () => {
-            this.$router.push( this.menu[swiper.activeIndex].url );
-        });
+        console.log(swiper);
+        // swiper.on('activeIndexChange', () => {
+        //     this.$router.push( this.menu[swiper.activeIndex].url );
+        // });
     },
 }
 </script>
