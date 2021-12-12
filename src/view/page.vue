@@ -3,7 +3,7 @@
         <div class="header">
             <img @click="$router.push('/')" src="@/assets/img/logo_simple.svg" alt="hay">
         </div>
-        <div class="swiper contents">
+        <div class="swiper swiper-contents">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <router-view name="viewCounseling" />
@@ -57,16 +57,18 @@ export default {
         }
     },
     methods: {
-    },
+        },
     mounted() {
-        let swiper = new Swiper('.swiper', {
+        // let bodyHeight = calc(100% - 48);
+        let swiper = new Swiper('.swiper-contents', {
             pagination: {
                 el: '.swiper-pagination',
                 clickable: true,
             },
             touchReleaseOnEdges: true,
             slidesPerView: 1,
-            autoHeight: true,
+            // autoHeight: true,
+            // height: bodyHeight,
             initialSlide: 2,
         });
         swiper.on('activeIndexChange', () => {
@@ -75,3 +77,8 @@ export default {
     },
 }
 </script>
+
+<style lang="scss" scoped>
+@import '@/assets/scss/var.scss';
+@import '@/assets/scss/page.scss';
+</style>
