@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="56" viewBox="0 0 56 56">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_9395" data-name="사각형 9395" width="31.501" height="31.502" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_297" data-name="그룹 297" transform="translate(-152 -470)">
+    <rect id="사각형_9382" data-name="사각형 9382" width="56" height="56" rx="28" transform="translate(152 470)" fill="#7f64ba"/>
+    <g id="그룹_293" data-name="그룹 293" transform="translate(164 482)">
+      <g id="그룹_292" data-name="그룹 292" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <path id="패스_275" data-name="패스 275" d="M22.8,15.481a7.315,7.315,0,1,1-7.315-7.315A7.315,7.315,0,0,1,22.8,15.481" transform="translate(0.27 0.271)" fill="none"/>
+        <path id="패스_276" data-name="패스 276" d="M15.506,23.595A8.09,8.09,0,1,1,23.6,15.5a8.1,8.1,0,0,1-8.091,8.09m0-14.63a6.54,6.54,0,1,0,6.541,6.54,6.548,6.548,0,0,0-6.541-6.54" transform="translate(0.245 0.246)" fill="#fff"/>
+        <line id="선_60" data-name="선 60" y2="5.234" transform="translate(15.751 0.001)" fill="#fff"/>
+        <line id="선_61" data-name="선 61" x2="2.617" y2="4.532" transform="translate(7.876 2.111)" fill="#fff"/>
+        <line id="선_62" data-name="선 62" x2="4.532" y2="2.617" transform="translate(2.11 7.876)" fill="#fff"/>
+        <line id="선_63" data-name="선 63" x2="5.234" transform="translate(0 15.751)" fill="#fff"/>
+        <line id="선_64" data-name="선 64" y1="2.617" x2="4.532" transform="translate(2.11 21.01)" fill="#fff"/>
+        <line id="선_65" data-name="선 65" y1="4.532" x2="2.617" transform="translate(7.876 24.86)" fill="#fff"/>
+        <line id="선_66" data-name="선 66" y1="5.234" transform="translate(15.751 26.269)" fill="#fff"/>
+        <line id="선_67" data-name="선 67" x1="2.617" y1="4.532" transform="translate(21.01 24.86)" fill="#fff"/>
+        <line id="선_68" data-name="선 68" x1="4.532" y1="2.617" transform="translate(24.859 21.01)" fill="#fff"/>
+        <line id="선_69" data-name="선 69" x1="5.234" transform="translate(26.268 15.751)" fill="#fff"/>
+        <line id="선_70" data-name="선 70" x1="4.532" y2="2.617" transform="translate(24.859 7.876)" fill="#fff"/>
+        <line id="선_71" data-name="선 71" x1="2.617" y2="4.532" transform="translate(21.01 2.111)" fill="#fff"/>
+        <g id="그룹_294" data-name="그룹 294" transform="translate(0 0.001)">
+          <rect id="사각형_9383" data-name="사각형 9383" width="1.55" height="5.233" transform="translate(14.975)" fill="#fff"/>
+          <rect id="사각형_9384" data-name="사각형 9384" width="1.55" height="5.234" transform="matrix(0.866, -0.5, 0.5, 0.866, 7.205, 2.496)" fill="#fff"/>
+          <rect id="사각형_9385" data-name="사각형 9385" width="1.55" height="5.233" transform="matrix(0.5, -0.866, 0.866, 0.5, 1.723, 8.547)" fill="#fff"/>
+          <rect id="사각형_9386" data-name="사각형 9386" width="5.234" height="1.55" transform="translate(0 14.975)" fill="#fff"/>
+          <rect id="사각형_9387" data-name="사각형 9387" width="5.233" height="1.55" transform="translate(1.723 22.956) rotate(-30.001)" fill="#fff"/>
+          <rect id="사각형_9388" data-name="사각형 9388" width="5.234" height="1.55" transform="translate(7.205 29.005) rotate(-59.999)" fill="#fff"/>
+          <rect id="사각형_9389" data-name="사각형 9389" width="1.55" height="5.234" transform="translate(14.975 26.269)" fill="#fff"/>
+          <rect id="사각형_9390" data-name="사각형 9390" width="1.55" height="5.234" transform="translate(20.339 25.246) rotate(-29.996)" fill="#fff"/>
+          <rect id="사각형_9391" data-name="사각형 9391" width="1.55" height="5.233" transform="translate(24.473 21.68) rotate(-60.008)" fill="#fff"/>
+          <rect id="사각형_9392" data-name="사각형 9392" width="5.234" height="1.55" transform="translate(26.269 14.975)" fill="#fff"/>
+          <rect id="사각형_9393" data-name="사각형 9393" width="5.233" height="1.55" transform="translate(24.471 9.822) rotate(-30.001)" fill="#fff"/>
+          <rect id="사각형_9394" data-name="사각형 9394" width="5.234" height="1.55" transform="translate(20.339 6.255) rotate(-59.999)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -8,6 +8,7 @@ import Hay from '@/view/hay/hay.vue';
 import PostDiary01 from '@/view/hay/PostDiary01.vue';
 import PostDiary02 from '@/view/hay/PostDiary02.vue';
 import PostDiary03 from '@/view/hay/PostDiary03.vue';
+import Reservation from '@/view/hay/Reservation.vue';
 import Lounge from '@/view/lounge/lounge.vue';
 import My from '@/view/my/my.vue';
 
@@ -83,6 +84,16 @@ const routes = [
                     viewCounseling: Counseling,
                     viewPrescribe: Prescribe,
                     viewHay: PostDiary03,
+                    viewLounge: Lounge,
+                    viewMy: My,
+                }
+            },
+            {
+                path: 'reservation',
+                components: {
+                    viewCounseling: Counseling,
+                    viewPrescribe: Prescribe,
+                    viewHay: Reservation,
                     viewLounge: Lounge,
                     viewMy: My,
                 }
