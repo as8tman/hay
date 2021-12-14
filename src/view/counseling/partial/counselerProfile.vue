@@ -1,5 +1,7 @@
 <template>
     <div @click="$router.push('/page/counseler')" class="twoTone-box">
+    <!-- <div class="twoTone-box"> -->
+    <!-- <router-link to="counseler">go</router-link> -->
         <div class="twoTone-box--contents">
             <div class="twoTone-box--grade">
                 <img src="@/assets/img/grade_s.svg" class="twoTone-box--grade-mark" alt="S">

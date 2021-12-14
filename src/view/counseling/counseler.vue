@@ -28,11 +28,11 @@ import CounselerProfile from './partial/counselerProfile.vue';
 import Evaluation from './partial/evaluation.vue';
 
 export default {
+    name: 'counseling',
     components: { 
         InfoBox,
         CounselerProfile,
         Evaluation,
     },
-    name: 'counseling',
 }
 </script>

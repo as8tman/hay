@@ -7,12 +7,16 @@ $bg-gray: #efeff2;
 $bg-gray2: #F5F5F5;
 $bg-red: #F92525;
 $bg-white: #fff;
+$bg-blue-soft: #F7F3FF;
 
 $txt-red: #F92525;
+$txt-red2:#EB0001;
 $txt-white: #fff;
 $txt-gray: #333;
+$txt-666: #666;
 $txt-gray2: #999;
 $txt-biolet: #7E63BA;
+$txt-biolet2: #D64ACD;
 
 $border-gray: #DBDBDB;
 $border-gray2: #E2E2E2;
@@ -26,4 +30,8 @@ $box-radius-15: 1.5rem;
 }
 @mixin txt-indent {
     text-indent: -1000rem;
+}
+@mixin clear-btn {
+    border: none;
+    background: transparent;
 }

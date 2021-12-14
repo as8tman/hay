@@ -2,6 +2,8 @@
     <div>
         <div class="contents-wrap">
 
+<button @click="$router.push('/page/postDiary01')" type="button">go</button>
+
             <info-box />
 
             <section class="biolet-box">

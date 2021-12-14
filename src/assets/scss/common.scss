@@ -22,15 +22,21 @@ html{
 body{
     margin: 0;
     background: $bg-gray;
+    color: $txt-gray;
 }
 ul{
     list-style: none;
     padding-left: 0;
+    margin-top: 0;
     margin-bottom: 0;
 }
 h2{
     margin-top: 0;
     margin-bottom: 0;
+}
+a{
+    text-decoration: none;
+    color: $txt-gray;
 }
 
 .home{
@@ -55,7 +61,6 @@ h2{
 
 .contents-wrap{
     margin: 2rem;
-    margin-bottom: 2rem;
 }
 
 .info-box{
@@ -416,5 +421,234 @@ h2{
     }
     &--star{
         height: 1.5rem;
+    }
+}
+
+// 병헌 211214 로켓처방
+.prescribe{
+    background: $bg-white;
+}
+.swiper-ban{
+    margin-bottom: 3.8rem;
+    &--img{
+        width: 100%;
+    }
+    &--paging{
+        margin-top: -5rem;
+        z-index: 1;
+        position: absolute;
+        bottom: 2.5rem !important;
+        left: 2.5rem !important;
+        span{
+            width: 1rem;
+            height: 1rem;
+            margin-right: .5rem;
+            background: $bg-white;
+            opacity: 1;
+            &.swiper-pagination-bullet-active{
+                background: $bg-biolet;
+                width: 2.2rem;
+                border-radius: .5rem;
+            }
+        }
+    }
+}
+.prescribe-menu{
+    display: flex;
+    margin-right: 1.25rem;
+    margin-left: 1.25rem;
+    margin-bottom: 3rem;
+    &--item{
+        width: 20%;
+        text-align: center;
+        margin-right: .75rem;
+        margin-left: .75rem;
+        font-size: 1.3rem;
+    }
+    &--img{
+        width: 100%;
+        border-radius: 50%;
+    }
+}
+.box-head-set{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    &--tit{
+        font-size: 1.4rem;
+        color: $txt-gray2;
+    }
+    &--more{
+        @include clear-btn;
+        background: url(~@/assets/img/arrow_right3.svg) no-repeat center;
+        width: 2rem;
+        height: 2rem;
+    }
+    &--txt{
+        font-size: 1.4rem;
+        color: $txt-biolet2;
+        font-weight: 700;
+    }
+    &.no-margin{
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+.heelingtem{
+    margin-bottom: 3rem;
+}
+.swiper-heelingtem{
+    .swiper-wrapper{
+        margin-left: 2rem;
+        .swiper-slide{
+            width: 9.2rem;
+        }
+    }
+    &--img{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    &--txt{
+        font-size: 1.3rem;
+        margin-bottom: .5rem;
+        min-height: 3.4rem;
+    }
+    &--num{
+        display: flex;
+        justify-content: space-between;
+    }
+    &--percent{
+        font-size: 1.4rem;
+        color: $txt-red2;
+    }
+    &--price{
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+    &--won{
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: $txt-666;
+    }
+}
+.therapy{
+    margin-bottom: 3rem;
+}
+.img-list{
+    margin-right: 1.4rem;
+    margin-left: 1.4rem;
+    &--li{
+        width: 46.3%;
+        margin-right: .6rem;
+        margin-left: .6rem;
+        margin-bottom: 3.8rem;
+        display: inline-block;
+        vertical-align: top;
+    }
+    &--img{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    &--tit{
+        font-size: 1.3rem;
+    }
+}
+
+// 병헌 라운지
+.position-relative{
+    position: relative;
+}
+.lounge-top{
+    margin-bottom: 4.7rem;
+}
+.lounge-txt{
+    display: flex;
+    text-align: center;
+    font-size: 1.4rem;
+    color: $txt-white;
+    margin-bottom: 3rem;
+    &--1{
+        height: 1.8;
+        width: 50%;
+        border-right: solid .1rem rgba($color: white, $alpha: .5);
+    }
+    &--2{
+        width: 50%;
+    }
+    &--btn{
+        width: 17.8rem;
+        height: 5.4rem;
+        border-radius: 2.7rem;
+        border: none;
+        background: $bg-white;
+        font-size: 1.6rem;
+        color: $txt-biolet;
+        font-weight: 700;
+        position: absolute;
+        bottom: -2.5rem;
+        left: 50%;
+        transform: translateX(-50%);
+        box-shadow: .2rem .2rem .5rem rgba($color: black, $alpha: .2);
+        &::after{
+            content: url(~@/assets/img/arrow_right4.svg);
+            width: 2rem;
+            height: 2rem;
+            vertical-align: sub;
+            margin-left: 1rem;
+        }
+    }
+}
+.tag-set{
+    background: $bg-blue-soft;
+    padding: 1.2rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    &--tit{
+        font-size: 1.6rem;
+        width: 10.5rem;
+    }
+    &--ul{
+        font-size: 1.4rem;
+        line-height: 1.7;
+    }
+    &--li{
+        display: inline-block;
+        margin-left: 1rem;
+    }
+}
+.box-white{
+    background: $bg-white;
+    padding: 3rem 2rem;
+}
+.list-hori-img{
+    &--li{
+        display: flex;
+        margin-bottom: 1rem;
+    }
+    &--img{
+        width: 16.4rem;
+    }
+    &--txt{
+        margin-left: 2rem;
+    }
+    &--tit{
+        font-size: 1.6rem;
+        margin-bottom: .5rem;
+    }
+    &--tag{
+        font-size: 1.3rem;
+        color: $txt-666;
+        margin-bottom: .5rem;
+    }
+    &--tagtxt{
+        margin-right: .5rem;
+    }
+    &--num{
+        font-size: 1.4rem;
+    }
+    &--people{
+        font-weight: 700;
     }
 }
