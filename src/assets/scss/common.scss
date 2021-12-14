@@ -21,7 +21,7 @@ html{
 }
 body{
     margin: 0;
-    background: $bg-gray;
+    background-color: $bg-gray !important;
     color: $txt-gray;
 }
 ul{
@@ -36,7 +36,7 @@ h2{
 }
 a{
     text-decoration: none;
-    color: $txt-gray;
+    color: $txt-gray !important;
 }
 
 .home{
@@ -421,6 +421,106 @@ a{
     }
     &--star{
         height: 1.5rem;
+    }
+}
+.tab-style{
+    font-size: 1.4rem;
+    .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom-width: .2rem;
+        border-color: $border-biolet;
+    }
+}
+.counseler-txt{
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+.tit-style{
+    font-size: 1.4rem;
+    color: $txt-white;
+    background: $bg-gray3;
+    padding: .4rem 1.2rem;
+    border-radius: .6rem;
+    display: inline-block;
+}
+.tit-style2{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.list-disc-txt{
+    list-style: disc;
+    margin-left: 2rem;
+    &--li{
+        margin-bottom: .4rem;
+    }
+}
+.counseler-information{
+    margin-top: 3rem;
+}
+.counseler-information2{
+    margin-top: 1.5rem;
+}
+.counseler-information3{
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+.counseler-stararea{
+    margin-bottom: 2rem;
+}
+.txt-style{
+    font-size: 1.4rem;
+    color: $txt-666;
+}
+.btn-more{
+    background: url(~@/assets/img/btn_more.svg) no-repeat center;
+    width: 3.4rem;
+    height: 3.4rem;
+    margin-right: auto;
+    margin-left: auto;
+    @include txt-indent;
+    border: none;
+    display: block;
+}
+.map{
+    width: calc(100% + 4rem);
+    margin-right: -2rem;
+    margin-left: -2rem;
+}
+.btn-tell{
+    background: url(~@/assets/img/ico_tell.svg) no-repeat center;
+    width: 3.4rem;
+    height: 3.4rem;
+    @include txt-indent;
+    border: none;
+}
+.btn-share{
+    background: url(~@/assets/img/ico_share.svg) no-repeat center;
+    width: 3.4rem;
+    height: 3.4rem;
+    @include txt-indent;
+    border: none;
+}
+.counseler-tell{
+    margin-right: 1.2rem;
+}
+.btn-group{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    &--zzim{
+        margin-right: 1rem;
+    }
+    &--wide{
+        display: block;
+        width: 100%;
+        border: none;
+        border-radius: .8rem;
+        background: $bg-biolet;
+        color: $txt-white;
+        font-size: 1.6rem;
+        font-weight: 700;
     }
 }
 
