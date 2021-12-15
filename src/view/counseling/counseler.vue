@@ -47,7 +47,7 @@
             </section>
             <section class="btn-group">
                 <img src="~@/assets/img/ico_heart_box.svg" class="btn-group--zzim" alt="찜">
-                <button class="btn-group--wide">상담 예약하기</button>
+                <button @click="$router.push('/page/reservation')" class="btn-group--wide">상담 예약하기</button>
             </section>
         </div>
     </div>
@@ -65,7 +65,16 @@ export default {
         CounselerProfile,
         Evaluation,
     },
+//     activated() {
+//     window.scrollTo(0, 0);
+//   },
     mounted() {
+    //     setTimeout(() => {
+    //         document.scrollTo(0, 0);
+    //         window.scrollTo(0, 0);
+    //     }, 100);
+    //     document.body.scrollTop = document.documentElement.scrollTop = 0;
+    // window.scrollTo(0, 0)
     }
 }
 </script>

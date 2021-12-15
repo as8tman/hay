@@ -71,6 +71,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-bottom: 2rem;
   .mood-txt {
     margin-bottom: 3.8rem;
     font: 16px normal;
@@ -84,6 +85,7 @@
     background: #fff;
     border-radius: 1.5rem;
     padding: 2rem;
+    margin-bottom: 2rem;
     .emoti-wrap {
       ul {
         display: flex;

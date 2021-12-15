@@ -26,6 +26,12 @@ export default {
             // }
             this.$router.push('/page/hay');
         },
+    },
+    activated() {
+    window.scrollTo(0, 0);
+  },
+    mounted(){
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
     }
 }
 </script>

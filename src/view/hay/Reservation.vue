@@ -95,7 +95,7 @@
 
         <section class="btn-content">
           <img src="~@/assets/img/ico_heart_box.svg" alt="찜">
-          <button class="pur-btn reserve-btn">상담 예약하기</button>
+          <button class="pur-btn reserve-btn">결제하기</button>
         </section>
       </div>
     </div>
@@ -105,7 +105,7 @@
 import infoBox from '@/components/infoBox.vue'
 export default {
   components: { infoBox },
-  name: 'reservation',
+  name: 'Reservation',
 }
 </script>
 

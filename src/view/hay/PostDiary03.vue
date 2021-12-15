@@ -57,6 +57,10 @@
       </b-collapse>
     </b-card>
   </div>
+  <section class="btn-group">
+          <button @click="$router.push('/page/postDiary02')" class="btn-group--wide gray half">이전</button>
+          <button class="btn-group--wide half">기록</button>
+      </section>
     </div>
   </div>
 </template>

@@ -26,6 +26,7 @@
             </ul>
           </div>
         </div>
+        <button @click="$router.push('/page/postDiary02')" class="btn-group--wide full">다음</button>
       </div>
     </div>
   </div>

@@ -1,5 +1,5 @@
 <template>
-    <div @click="$router.push('/page/counseler')" class="twoTone-box">
+    <div @click="$router.push('/page/counseler'), scrollToTop" class="twoTone-box">
     <!-- <div class="twoTone-box"> -->
     <!-- <router-link to="counseler">go</router-link> -->
         <div class="twoTone-box--contents">
@@ -31,5 +31,10 @@
 <script>
 export default {
     name: 'counselerProfile',
+    methods: {
+        scrollToTop() {
+            window.scrollTo(0, 0);
+        },
+    }
 }
 </script>

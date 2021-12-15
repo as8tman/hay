@@ -2,7 +2,7 @@
     <div>
         <div class="contents-wrap">
 
-<button @click="$router.push('/page/postDiary01')" type="button">go</button>
+<!-- <button @click="$router.push('/page/postDiary01')" type="button">go</button> -->
 
             <info-box />
 
@@ -11,7 +11,7 @@
                     오늘 <span class="txt-biolet">하루</span>는 <br> 어떠셨나요?
                 </div>
                 <img src="@/assets/img/imoti_1.svg" class="biolet-box--img" alt="캐릭터">
-                <button class="biolet-box--btn btn-txt-go" type="button">하루 기록하기</button>
+                <button @click="$router.push('/page/postDiary01')" class="biolet-box--btn btn-txt-go" type="button">하루 기록하기</button>
             </section>
 
             <section class="white-box">

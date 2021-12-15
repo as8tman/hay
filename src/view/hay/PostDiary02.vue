@@ -23,6 +23,10 @@
         </div>
         <input type="text" placeholder="내용을 입력해 주세요." class="white-input-box">
       </div>
+      <section class="btn-group">
+          <button @click="$router.push('/page/postDiary01')" class="btn-group--wide gray half">이전</button>
+          <button @click="$router.push('/page/postDiary03')" class="btn-group--wide half">다음</button>
+      </section>
     </div>
   </div>
 </template>
