@@ -28,7 +28,7 @@
                     <h2 class="box-head-set--tit">오픈라운지</h2>
                 </div>
                 <ul>
-                    <li class="list-hori-img--li">
+                    <li @click="sendMessage('r1')" class="list-hori-img--li">
                         <img src="@/assets/img/temp_openlounge1.jpg" class="list-hori-img--img" alt="">
                         <div class="list-hori-img--txt">
                             <h2 class="list-hori-img--tit">10년생 들어와!</h2>
@@ -43,7 +43,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="list-hori-img--li">
+                    <li @click="sendMessage('r2')" class="list-hori-img--li">
                         <img src="@/assets/img/temp_openlounge2.jpg" class="list-hori-img--img" alt="">
                         <div class="list-hori-img--txt">
                             <h2 class="list-hori-img--tit">고민상담해줄 사람</h2>
@@ -58,7 +58,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="list-hori-img--li">
+                    <li @click="sendMessage('r3')" class="list-hori-img--li">
                         <img src="@/assets/img/temp_openlounge3.jpg" class="list-hori-img--img" alt="">
                         <div class="list-hori-img--txt">
                             <h2 class="list-hori-img--tit">쇼미더헤이 (오디션)</h2>
@@ -73,7 +73,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="list-hori-img--li">
+                    <li @click="sendMessage('r4')" class="list-hori-img--li">
                         <img src="@/assets/img/temp_openlounge4.jpg" class="list-hori-img--img" alt="">
                         <div class="list-hori-img--txt">
                             <h2 class="list-hori-img--tit">있잖아요! 비밀얘기</h2>
@@ -100,6 +100,11 @@ export default {
     name: 'Lounge',
     components: { 
         infoBox,
+    },
+    methods: {
+        sendMessage(val){
+            window.android.setMessage(val);
+        }
     },
 }
 </script>

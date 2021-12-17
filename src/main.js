@@ -10,6 +10,7 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 // import commonJs from '@/assets/js/common.js';
 // Vue.use(commonJs);
+
 Vue.use(BootstrapVue);
 
 new Vue({

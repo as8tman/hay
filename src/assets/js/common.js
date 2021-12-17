@@ -1,14 +1,14 @@
 const methods = {
 
-  // changeFunc(idx){
-  //   console.log(idx);
-  // }
+  sendMessage(val){
+    window.android.setMessage(val);
+    console.log(val)
+  }
 
 }
 
 export default{
     install(Vue){
-        // Vue.prototype.$openFullscreen = methods.openFullscreen;
-        // Vue.prototype.$changeFunc = methods.changeFunc;
+        Vue.prototype.$sendMessage = methods.sendMessage;
     }
 }
