@@ -78,19 +78,3 @@ export default {
     }
 }
 </script>
-
-<style lang="scss" scoped>
-@import '@/assets/scss/Reservation.scss';
-.reserve-btn {
-  width: 26.6rem;
-  height: 4.5rem;
-  border: none;
-  border-radius: 1rem;
-  font-size: 16px;
-  font-weight: 500;
-}
-.pur-btn {
-  background: #7F64BA !important;
-  color: #fff !important;
-}
-</style>

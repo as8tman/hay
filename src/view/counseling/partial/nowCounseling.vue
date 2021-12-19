@@ -8,20 +8,32 @@
                     <span class="counseler--txt">힐링교사1</span>
                 </div>
                 <div @click="sendMessage('2')" class="swiper-slide">
-                    <img src="@/assets/img/temp_face.jpg" class="counseler--selfi" alt="힐링교사">
+                    <img src="@/assets/img/temp_face2.jpg" class="counseler--selfi" alt="힐링교사">
                     <span class="counseler--txt">힐링교사2</span>
                 </div>
                 <div @click="sendMessage('3')" class="swiper-slide">
-                    <img src="@/assets/img/temp_face.jpg" class="counseler--selfi" alt="힐링교사">
+                    <img src="@/assets/img/temp_face3.jpg" class="counseler--selfi" alt="힐링교사">
                     <span class="counseler--txt">힐링교사3</span>
                 </div>
                 <div @click="sendMessage('4')" class="swiper-slide">
-                    <img src="@/assets/img/temp_face.jpg" class="counseler--selfi" alt="힐링교사">
+                    <img src="@/assets/img/temp_face4.jpg" class="counseler--selfi" alt="힐링교사">
                     <span class="counseler--txt">힐링교사4</span>
                 </div>
-                <div @click="sendMessage('5')" class="swiper-slide">
+                <div @click="sendMessage('1')" class="swiper-slide">
                     <img src="@/assets/img/temp_face.jpg" class="counseler--selfi" alt="힐링교사">
                     <span class="counseler--txt">힐링교사5</span>
+                </div>
+                <div @click="sendMessage('2')" class="swiper-slide">
+                    <img src="@/assets/img/temp_face2.jpg" class="counseler--selfi" alt="힐링교사">
+                    <span class="counseler--txt">힐링교사6</span>
+                </div>
+                <div @click="sendMessage('3')" class="swiper-slide">
+                    <img src="@/assets/img/temp_face3.jpg" class="counseler--selfi" alt="힐링교사">
+                    <span class="counseler--txt">힐링교사7</span>
+                </div>
+                <div @click="sendMessage('4')" class="swiper-slide">
+                    <img src="@/assets/img/temp_face4.jpg" class="counseler--selfi" alt="힐링교사">
+                    <span class="counseler--txt">힐링교사8</span>
                 </div>
             </div>
             <div class="swiper-pagination"></div>

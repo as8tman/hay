@@ -95,7 +95,7 @@
 
         <section class="btn-content">
           <img src="~@/assets/img/ico_heart_box.svg" alt="찜">
-          <button class="pur-btn reserve-btn">결제하기</button>
+          <button @click="$router.push('/page/payment')" class="pur-btn reserve-btn">상담 예약하기</button>
         </section>
       </div>
     </div>

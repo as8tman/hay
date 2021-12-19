@@ -73,10 +73,10 @@
                             </div>
                         </div>
                     </li>
-                    <li @click="sendMessage('r4')" class="list-hori-img--li">
+                    <li @click="$router.push('/page/profile')" class="list-hori-img--li">
                         <img src="@/assets/img/temp_openlounge4.jpg" class="list-hori-img--img" alt="">
                         <div class="list-hori-img--txt">
-                            <h2 class="list-hori-img--tit">있잖아요! 비밀얘기</h2>
+                            <h2 class="list-hori-img--tit">라운지 입장 링크</h2>
                             <div class="list-hori-img--tag">
                                 <span class="list-hori-img--tagtxt">#노래</span>
                                 <span class="list-hori-img--tagtxt">#고민</span>
