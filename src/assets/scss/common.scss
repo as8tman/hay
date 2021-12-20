@@ -868,11 +868,11 @@ a{
 .profile{
     height: calc(100vh - 11.1rem);
     background: url(~@/assets/img/temp_counseler_bg.jpg) center no-repeat;
-    background-size: 200%;
+    background-size: 220%;
     img{
         width: calc(100% - 4rem);
         position: absolute;
-        bottom: 2rem;
+        bottom: 8rem;
         left: 50%;
         transform: translateX(-50%);
     }
